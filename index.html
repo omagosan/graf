@@ -10,6 +10,7 @@
             justify-content: center;
             align-items: center;
             height: 100vh;
+            font-family: "Comic Sans MS";
         }
         #cykl {
             width: 1200px;
@@ -26,6 +27,11 @@
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             Highcharts.setOptions({
+                chart: {
+                    style: {
+                        fontFamily: 'Comic Sans MS'
+                    }
+                },
                     lang: {
                         months: ['leden', 'únor', 'březen', 'duben', 'květen', 'červen', 'červenec', 'srpen', 'září', 'říjen', 'listopad', 'prosinec'],
                         shortMonths: ['led.', 'úno.', 'bře.', 'dub.', 'kvě', 'čvn.', 'čvc.', 'srp.', 'zář.', 'říj.', 'lis.', 'pro.'],                        
